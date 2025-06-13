@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style/style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Conference ticket generator</title>
+</head>
+<body>
+
+  <section class="text-h1">
+    <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+    <p>Secure your spot at next year's biggest codign conference.</p>
+  </section>
+
+  <form action="" id="form">
+
+    <label for="avatar">
+      <div id="label-avatar">
+        <img src="assets/images/icon-upload.svg"  width="50" class="img-avatar">
+        <input type="file" id="avatar">
+        <p>Drag and drop or click to upload.</p>
+      </div>
+
+      <div>
+        <p class="p-warn">
+          <img src="assets/images/icon-info.svg" alt="">
+          Upload your photo (JPG or PNG, max size: 500KB).</p>
+        <p class="error-image">
+          <img src="assets/images/icon-info.svg" alt="">
+          File too large or is not PGN or JPG. Please upload a photo under 500KB.
+        </p>
+      </div>
+    </label>
+
+
+    <label for="full-name"> Full Name
+      <input type="text" name="" id="full-name">
+      <p class="message-error error-full-name">
+        <img src="assets/images/icon-info.svg" alt="">
+        Please enter with your full name.</p>
+    </label>
+
+    <label for="email"> Email Adress
+      <input type="email" name="" id="email" placeholder="exemple@gmail.com">
+      <p class="message-error error-email">
+        <img src="assets/images/icon-info.svg" alt="">
+        Please enter a valid email.</p>
+    </label>
+
+    <label for="github"> GitHub Username
+      <input type="text" name="" id="github" placeholder="@yourusername">
+      <p class="message-error error-github">
+        <img src="assets/images/icon-info.svg" alt="">
+        Please enter with yout GitHub.</p>
+    </label>
+
+    <button type="submit" id="btn-submit">Generate My Ticket</button>
+  </form>
+  
+  <footer class="attribution">  
+    Coded by <a target="_blank" href="https://github.com/Rafael-Garlant">Rafael Figueredo Garlant</a>.
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+
+
+</body>
+</html>
