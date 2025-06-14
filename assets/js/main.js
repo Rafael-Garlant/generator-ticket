@@ -150,7 +150,7 @@ function formController() {
 
       localStorage.setItem('ticketData', JSON.stringify(ticketData))
 
-      window.location.href = "../../ticket.html";
+      window.location.href = "../ticket.html";
     } else{
       console.log('Erro ao carregar os dados');
     }
